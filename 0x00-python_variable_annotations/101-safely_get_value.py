@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ This module showcases complex annotations in Python """
 from typing import Mapping, Any, Union, TypeVar
 
@@ -6,7 +6,8 @@ T = TypeVar('T')
 
 
 # mypy: no-implicit-optional
-def safely_get_value(dct: Mapping, key: Any, default: Union[T, None] = None) -> Union[Any, T]:
+def safely_get_value(dct: Mapping, key: Any,
+                     default: Union[T, None] = None) -> Union[Any, T]:
     """ Duck typing """
     if key in dct:
         return dct[key]

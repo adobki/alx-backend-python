@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ This module showcases complex annotations in Python """
 from typing import Iterable, Sequence, List, Tuple
 

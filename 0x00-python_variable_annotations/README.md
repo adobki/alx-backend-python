@@ -1,5 +1,5 @@
 # ___0x00.Python: Variable Annotations___
-This folder contains the actual results of completing the tasks in the project ___0x00.PYTHON: VARIABLE ANNOTATIONS.___ The project was an introduction to type annotations in Python 2, and code validation with mypy.
+This folder contains the actual results of completing the tasks in the project ___0x00.PYTHON: VARIABLE ANNOTATIONS.___ The project was an introduction to type annotations in Python 3, and code validation with mypy.
 
 ## Technologies Used
 1. Python
